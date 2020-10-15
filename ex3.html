@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		.sharp{
+			margin: 100px;
+			animation-name: rad;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			width: 150px;
+			height: 150px;
+			background-color: aqua;
+			border-radius: 50%;
+		}
+		@keyframes rad{
+			0%{border-radius: 0;}
+			100%{border-radius: 50%;}
+		}
+	</style>
+	<body>
+		<div class="sharp"></div>
+	</body>
+</html>
